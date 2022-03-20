@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/splashcreen" />
+
+        <EditText
+            android:id="@+id/edEmailDN"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/gray"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="6dp"
+            android:hint="Email"
+
+            android:textColor="@color/gray" />
+
+        <EditText
+            android:id="@+id/edPasswordDN"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/gray"
+            android:drawableLeft="@drawable/padlock"
+            android:drawablePadding="6dp"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:textColor="@color/gray" />
+
+        <Button
+            android:id="@+id/btnDangNhap"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Đăng nhập" />
+
+        <Button
+            android:id="@+id/btnDangKy"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Đăng ký" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="--------  Hoặc  --------" />
+
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btnDangNhapGoogle"
+            android:layout_width="220dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="@color/silver"
+            />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/btnDangNhapFacebook"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+             />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
