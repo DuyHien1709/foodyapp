@@ -10,10 +10,11 @@
         <entry key="..\:/AndroidProject/KhoaLuanTotNghiep/FoodApp/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/AndroidProject/KhoaLuanTotNghiep/FoodApp/app/src/main/res/layout/activity_register.xml" value="0.4" />
         <entry key="..\:/AndroidProject/KhoaLuanTotNghiep/FoodApp/app/src/main/res/layout/layout_splashscreen.xml" value="0.536" />
+        <entry key="..\:/Users/Admin/Desktop/FA/foodyapp/FoodApp/app/src/main/res/layout/activity_main.xml" value="0.14814814814814814" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
